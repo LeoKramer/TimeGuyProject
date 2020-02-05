@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0eb065de-dbd5-4159-b47a-15d875ec4ffe",
+            "Value": {
+                "id": "2873e1ba-e630-4b37-a351-63fd1b485a7e",
+                "resourcePath": "sprites\\sPlayerAttack\\sPlayerAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "193a6c80-cb3b-44d6-92d1-965ce0fd795d",
             "Value": {
                 "id": "7144a873-d631-419c-a1b6-69fcda477389",
