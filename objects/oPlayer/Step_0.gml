@@ -48,7 +48,7 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
-	image_speed = 1;
+	image_speed = 3;
 	sprite_index = (hsp == 0)? sPlayerIdle : sPlayerRun;
 	
 }
