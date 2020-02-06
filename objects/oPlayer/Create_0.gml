@@ -5,3 +5,14 @@ vsp = 0;
 grv = 0.5;
 walksp = 8;
 jumpsp = 15;
+
+// Adding state machine
+state = PLAYERSTATE.FREE;
+hitByAttack = ds_list_create();
+
+enum PLAYERSTATE
+{
+	FREE,
+	ATTACK_SLASH,
+	ATTACK_COMBO
+}
