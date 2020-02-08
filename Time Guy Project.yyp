@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
+            "Value": {
+                "id": "ccb67491-2f60-48e8-a134-4de8d99d5f91",
+                "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0b39452b-abf3-44e6-9eeb-995eddb8b3e3",
             "Value": {
                 "id": "91b988f6-e357-44e4-ae8e-9e86e6da8e5e",
@@ -116,6 +124,14 @@
                 "id": "68bc679d-b32b-4ee3-9a94-f57b7c73981a",
                 "resourcePath": "views\\347e68e4-2477-4f9c-a6b4-460bb18f5927.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "428d39cb-1d34-4d5e-9036-5a4e08fc5d29",
+            "Value": {
+                "id": "21afb073-8390-4f47-a11e-7e44ac466fb0",
+                "resourcePath": "sprites\\sPlayerAttackCombo\\sPlayerAttackCombo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -218,7 +234,7 @@
             "Key": "7c91e507-38be-4548-964d-d94e938b236e",
             "Value": {
                 "id": "062102f4-92c5-4c90-ba7d-d55c89f0d07a",
-                "resourcePath": "scripts\\animation_end\\animation_end.yy",
+                "resourcePath": "scripts\\AnimationEnd\\AnimationEnd.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -283,6 +299,14 @@
             "Value": {
                 "id": "0fee4919-b500-451a-b599-fb523e772773",
                 "resourcePath": "sprites\\sBackground\\sBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0410edc-ac0f-42fd-8cb3-d2ad600a7498",
+            "Value": {
+                "id": "126fb196-1433-447d-9ab2-6d61a5d659b2",
+                "resourcePath": "sprites\\sPlayerAttackComboHB\\sPlayerAttackComboHB.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -356,7 +380,8 @@
         "0b39452b-abf3-44e6-9eeb-995eddb8b3e3",
         "4be94254-e833-47c9-ad59-f0503b978941",
         "1139c40d-964d-4101-8ced-f51c3f90e2dd",
-        "7c91e507-38be-4548-964d-d94e938b236e"
+        "7c91e507-38be-4548-964d-d94e938b236e",
+        "0954c764-e97b-4ff1-a514-c3fa4bb6397c"
     ],
     "tutorial": ""
 }
