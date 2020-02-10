@@ -43,9 +43,10 @@ else
 {
 	image_speed = 2;
 	sprite_index = (hsp == 0)? sPlayerIdle : sPlayerRun;
-	
+	alreadyAirAttacked = false;
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (keyAttack) state = PLAYERSTATE.ATTACK_SLASH;
+if (keyAttack && sprite_index != sPlayerAir) state = PLAYERSTATE.ATTACK_SLASH;
+if (keyAttack && sprite_index == sPlayerAir && !alreadyAirAttacked) state = PLAYERSTATE.AIR_ATTACK;

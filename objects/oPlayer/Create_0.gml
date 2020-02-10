@@ -14,5 +14,8 @@ enum PLAYERSTATE
 {
 	FREE,
 	ATTACK_SLASH,
-	ATTACK_COMBO
+	ATTACK_COMBO,
+	AIR_ATTACK
 }
+
+alreadyAirAttacked = false;

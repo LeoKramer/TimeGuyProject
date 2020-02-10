@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2365df12-29fd-4502-957d-924449a058b0",
+            "Value": {
+                "id": "d4e2604b-9b74-4c09-b44b-e57a006dbe96",
+                "resourcePath": "sprites\\sPlayerAirAttackHB\\sPlayerAirAttackHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "273087b4-b4e7-42f6-b3b3-6e404d85d41f",
             "Value": {
                 "id": "0529d643-8779-42b3-9d55-78b61b67c487",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "9a8a58d9-b807-40f6-b156-522a6322b87a",
+            "Value": {
+                "id": "f0193803-ea7b-402b-8d53-555a8028de40",
+                "resourcePath": "sprites\\sPlayerAirAttack\\sPlayerAirAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9c36d8ab-5810-4c1c-a4de-f1a459b8c3d1",
             "Value": {
                 "id": "cb957312-8269-445f-b1a7-513bd65c816e",
@@ -373,6 +389,14 @@
                 "resourcePath": "sprites\\sPlayerRun\\sPlayerRun.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fec1506e-e6cf-48a4-b206-6d9fe189d564",
+            "Value": {
+                "id": "00620814-14f1-4e45-a3d6-bf5bfe910894",
+                "resourcePath": "scripts\\PlayerState_Air_Attack\\PlayerState_Air_Attack.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -381,7 +405,8 @@
         "4be94254-e833-47c9-ad59-f0503b978941",
         "1139c40d-964d-4101-8ced-f51c3f90e2dd",
         "7c91e507-38be-4548-964d-d94e938b236e",
-        "0954c764-e97b-4ff1-a514-c3fa4bb6397c"
+        "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
+        "fec1506e-e6cf-48a4-b206-6d9fe189d564"
     ],
     "tutorial": ""
 }
