@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "08461ebf-812c-4ce9-a8a4-112d5dc2af66",
+            "Value": {
+                "id": "f00041e8-f5bd-4b59-80d9-d071cd5c7372",
+                "resourcePath": "sprites\\sEnemyDead\\sEnemyDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
             "Value": {
                 "id": "ccb67491-2f60-48e8-a134-4de8d99d5f91",
@@ -44,6 +52,14 @@
                 "id": "91b988f6-e357-44e4-ae8e-9e86e6da8e5e",
                 "resourcePath": "scripts\\PlayerState_Attack_Slash\\PlayerState_Attack_Slash.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0cf7e5d5-c21e-4b09-be08-0dc6165a776c",
+            "Value": {
+                "id": "41147d3f-2e85-488b-a72a-74deb1325fd5",
+                "resourcePath": "sprites\\sEnemyIdle\\sEnemyIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

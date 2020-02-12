@@ -10,7 +10,7 @@ if(place_meeting(x,y+1,oWall)) and (key_jump)
 	vsp = -jumpsp;
 }
 
-// Horizontal collision
+// Horizontal collision with wall
 if (place_meeting(x+hsp,y,oWall))
 {
 	while (!place_meeting(x+sign(hsp),y,oWall))
@@ -19,9 +19,19 @@ if (place_meeting(x+hsp,y,oWall))
 	}
 	hsp = 0;
 }
+// Horizontal collision with enemy
+if (place_meeting(x+hsp,y,oEnemy))
+{
+	while (!place_meeting(x+sign(hsp),y,oEnemy))
+	{
+		x += sign(hsp);
+	}
+	hsp = 0;
+}
+
 x += hsp;
 
-// Vertical collision
+// Vertical collision with wall
 if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
@@ -30,6 +40,12 @@ if (place_meeting(x,y+vsp,oWall))
 	}
 	vsp = 0;
 }
+// Vertical collision with enemy
+if (place_meeting(x,y+vsp,oEnemy))
+{
+	vsp = -jumpsp/2;
+}
+
 y += vsp;
 
 // Animation
