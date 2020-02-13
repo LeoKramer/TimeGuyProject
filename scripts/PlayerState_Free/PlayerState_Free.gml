@@ -68,8 +68,10 @@ if (keyAttack && sprite_index != sPlayerAir) state = PLAYERSTATE.ATTACK_SLASH;
 if (keyAttack && sprite_index == sPlayerAir && !alreadyAirAttacked) state = PLAYERSTATE.AIR_ATTACK;
 
 //Check time stop pressed
-if (keyTimeStop)
+if (keyTimeStop && canTimeStop)
 {
+	canTimeStop = false;
 	timeStoped = true;
 	alarm[0] = room_speed * 1;
+	alarm[1] = room_speed * 3;
 }

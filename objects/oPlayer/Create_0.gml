@@ -6,6 +6,7 @@ grv = 0.5;
 walksp = 8;
 jumpsp = 15;
 timeStoped = false;
+canTimeStop = true;
 
 // Adding state machine
 state = PLAYERSTATE.FREE;
