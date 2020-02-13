@@ -66,3 +66,10 @@ if (hsp != 0) image_xscale = sign(hsp);
 
 if (keyAttack && sprite_index != sPlayerAir) state = PLAYERSTATE.ATTACK_SLASH;
 if (keyAttack && sprite_index == sPlayerAir && !alreadyAirAttacked) state = PLAYERSTATE.AIR_ATTACK;
+
+//Check time stop pressed
+if (keyTimeStop)
+{
+	timeStoped = true;
+	alarm[0] = room_speed * 1;
+}
