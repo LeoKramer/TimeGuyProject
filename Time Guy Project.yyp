@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "45989c26-205b-4b0e-b620-cf77641c88f1",
+            "Value": {
+                "id": "4ab97803-755c-487e-87b2-c13340e4e4b3",
+                "resourcePath": "sprites\\sRewindPosition\\sRewindPosition.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4be94254-e833-47c9-ad59-f0503b978941",
             "Value": {
                 "id": "5ff4f237-4bc9-4c7b-92b3-ff401016ae9b",
@@ -372,6 +380,14 @@
                 "id": "58ecfb50-5179-496a-820a-e46312a35132",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ea345aab-aebd-485c-bb03-fe5afda5c4e4",
+            "Value": {
+                "id": "e99e7b2a-5123-43d8-9fac-210f51ca49ab",
+                "resourcePath": "objects\\oRewindPosition\\oRewindPosition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
