@@ -37,6 +37,19 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y += vsp;
 
+// Animation
+if (!place_meeting(x,y+1,oWall))
+{
+	sprite_index = sPlayerAir;
+	image_speed = 0;
+	image_index = (vsp > 0)? 1 : 0;
+}
+else
+{
+	image_speed = 2;
+	sprite_index = (hsp == 0)? sEnemyIdle : sEnemyRun;
+}
+
 if (state == ENEMYSTATE.DEAD && !oPlayer.timeStoped)
 {
 	hsp = 0;
