@@ -4,5 +4,4 @@ var _damage = argument0;
 
 hp -= _damage;
 
-if (hp > 0) state = ENEMYSTATE.HIT;
-else state = ENEMYSTATE.DEAD;
+if (hp <= 0) state = ENEMYSTATE.DEAD;

@@ -1,8 +1,8 @@
 {
-    "id": "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
+    "id": "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ProcessAttack",
+    "name": "EnemyState_ComboAttack",
     "IsCompatibility": false,
     "IsDnD": false
 }

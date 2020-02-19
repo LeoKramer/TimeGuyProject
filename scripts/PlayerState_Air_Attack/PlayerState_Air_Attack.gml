@@ -1,5 +1,5 @@
 image_speed = 2;
-ProcessAttack(sPlayerAirAttack, sPlayerAirAttackHB);
+PlayerProcessAttack(sPlayerAirAttack, sPlayerAirAttackHB);
 
 // Calculate movement
 var _move = key_right - key_left;

@@ -42,7 +42,7 @@
             "Key": "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
             "Value": {
                 "id": "ccb67491-2f60-48e8-a134-4de8d99d5f91",
-                "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
+                "resourcePath": "scripts\\PlayerProcessAttack\\PlayerProcessAttack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -84,6 +84,14 @@
                 "id": "7144a873-d631-419c-a1b6-69fcda477389",
                 "resourcePath": "views\\193a6c80-cb3b-44d6-92d1-965ce0fd795d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "19db9bb8-b849-4919-8058-fd5a28944719",
+            "Value": {
+                "id": "cccfbb33-52b8-4ab3-a1d0-3c37b0a27ce2",
+                "resourcePath": "scripts\\EnemyState_Walking\\EnemyState_Walking.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "55957956-b105-4513-adee-340ea5e41530",
+            "Value": {
+                "id": "0b3efa56-5a38-4228-a944-dfc05fded533",
+                "resourcePath": "scripts\\EnemyState_Dash\\EnemyState_Dash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d3a8f87-cc8d-4ac2-845f-5aef458b4103",
             "Value": {
                 "id": "c955f77c-2217-4de2-9939-a02b0253bc66",
@@ -259,6 +275,14 @@
             "Value": {
                 "id": "307a9179-eeda-45b5-b270-0b73f09c2bca",
                 "resourcePath": "views\\68380a3e-e090-40d4-ac3b-d259788ebb2b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ab3dc69-987e-4cc4-9734-6a2ee1b8b0bc",
+            "Value": {
+                "id": "1c9d9f64-97d3-411b-9137-210075fb6d9e",
+                "resourcePath": "views\\6ab3dc69-987e-4cc4-9734-6a2ee1b8b0bc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -319,6 +343,30 @@
             }
         },
         {
+            "Key": "8507a87e-6d7d-412f-a39d-8db9efe73e44",
+            "Value": {
+                "id": "48ab3cac-5435-47f4-a024-6182aae3e8e5",
+                "resourcePath": "scripts\\EnemyProcessAttack\\EnemyProcessAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86e45e1c-2266-4596-89d7-121b9de1d30e",
+            "Value": {
+                "id": "4036370a-82a3-4ae8-8693-3eebaca82f7c",
+                "resourcePath": "sprites\\sEnemyPiercingAttackHB\\sEnemyPiercingAttackHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8bc13019-1b91-43e5-b9ac-531021bcc9e7",
+            "Value": {
+                "id": "d40099ba-b827-4878-9e49-6dd2e5a5ab09",
+                "resourcePath": "views\\8bc13019-1b91-43e5-b9ac-531021bcc9e7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8c49c744-0ace-4c48-aa0a-aa5db74f1973",
             "Value": {
                 "id": "433c053a-0033-487e-b17a-5b07b78b9235",
@@ -359,11 +407,35 @@
             }
         },
         {
+            "Key": "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
+            "Value": {
+                "id": "fa23efa6-3fa6-4b92-90d6-62eda8ef480a",
+                "resourcePath": "scripts\\EnemyState_ComboAttack\\EnemyState_ComboAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9a973375-2329-4631-a7fe-cfad55991eb3",
+            "Value": {
+                "id": "80837f17-6a01-490a-b8aa-d12235475fa9",
+                "resourcePath": "scripts\\PlayerHit\\PlayerHit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9c36d8ab-5810-4c1c-a4de-f1a459b8c3d1",
             "Value": {
                 "id": "cb957312-8269-445f-b1a7-513bd65c816e",
                 "resourcePath": "views\\9c36d8ab-5810-4c1c-a4de-f1a459b8c3d1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f90b85c-6c43-45b7-b2f1-2b10e9a2a127",
+            "Value": {
+                "id": "1dcbfb16-a64d-44b7-97ac-ebeb956e4a65",
+                "resourcePath": "sprites\\sEnemyNormalThrAttackHB\\sEnemyNormalThrAttackHB.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +519,22 @@
             }
         },
         {
+            "Key": "d5d6bcce-7e92-421b-9469-adf57e821696",
+            "Value": {
+                "id": "ce7c0da9-691d-4ce0-83ed-769a98fae099",
+                "resourcePath": "scripts\\EnemyState_Dead\\EnemyState_Dead.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d9d11222-e86a-432c-bb7e-1d482740b751",
+            "Value": {
+                "id": "216a538b-116b-401e-9812-e75aa58de443",
+                "resourcePath": "sprites\\sEnemyNormalSecAttackHB\\sEnemyNormalSecAttackHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ea345aab-aebd-485c-bb03-fe5afda5c4e4",
             "Value": {
                 "id": "e99e7b2a-5123-43d8-9fac-210f51ca49ab",
@@ -493,16 +581,30 @@
                 "resourcePath": "scripts\\PlayerState_Air_Attack\\PlayerState_Air_Attack.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "fef38c61-6908-4c10-888a-33fb54f7d322",
+            "Value": {
+                "id": "92d8cde7-eb9c-4e0a-a250-20db56ffd03d",
+                "resourcePath": "sprites\\sEnemyNormalAttackHB\\sEnemyNormalAttackHB.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
+        "7c91e507-38be-4548-964d-d94e938b236e",
+        "fec1506e-e6cf-48a4-b206-6d9fe189d564",
         "7c385fed-435d-41cd-91f8-8759ff376514",
         "0b39452b-abf3-44e6-9eeb-995eddb8b3e3",
         "4be94254-e833-47c9-ad59-f0503b978941",
-        "1139c40d-964d-4101-8ced-f51c3f90e2dd",
-        "7c91e507-38be-4548-964d-d94e938b236e",
         "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
-        "fec1506e-e6cf-48a4-b206-6d9fe189d564"
+        "9a973375-2329-4631-a7fe-cfad55991eb3",
+        "1139c40d-964d-4101-8ced-f51c3f90e2dd",
+        "19db9bb8-b849-4919-8058-fd5a28944719",
+        "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
+        "55957956-b105-4513-adee-340ea5e41530",
+        "d5d6bcce-7e92-421b-9469-adf57e821696",
+        "8507a87e-6d7d-412f-a39d-8db9efe73e44"
     ],
     "tutorial": ""
 }

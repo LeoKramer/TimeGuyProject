@@ -1,7 +1,7 @@
 hsp = 0;
 vsp = 0;
 
-ProcessAttack(sPlayerAttackCombo, sPlayerAttackComboHB);
+PlayerProcessAttack(sPlayerAttackCombo, sPlayerAttackComboHB);
 
 // Trigger combo chain
 if (keyAttack) && (image_index > 2)

@@ -7,10 +7,14 @@ grv = 0.5;
 walksp = 5;
 walkdirection = -1;
 
-state = ENEMYSTATE.ALIVE
+hitByEnemyAttack = ds_list_create();
+canDashAttack = true;
+
+state = ENEMYSTATE.WALKING
 enum ENEMYSTATE
 {
-	ALIVE,
+	WALKING,
+	COMBOATTACKING,
+	DASHING,
 	DEAD,
-	HIT
 }

@@ -9,6 +9,7 @@ walksp = 8;
 jumpsp = 15;
 timeStoped = false;
 canTimeStop = true;
+hp = 10;
 
 // Adding state machine
 state = PLAYERSTATE.FREE;
@@ -19,7 +20,8 @@ enum PLAYERSTATE
 	FREE,
 	ATTACK_SLASH,
 	ATTACK_COMBO,
-	AIR_ATTACK
+	AIR_ATTACK,
+	DEAD
 }
 
 alreadyAirAttacked = false;
