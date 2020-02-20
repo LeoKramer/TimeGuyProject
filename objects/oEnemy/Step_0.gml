@@ -23,5 +23,8 @@ else
 		case ENEMYSTATE.DEAD:
 			EnemyState_Dead();
 			break;
+		case ENEMYSTATE.IDLE:
+			EnemyState_Idle();
+			break;
 	}
 }

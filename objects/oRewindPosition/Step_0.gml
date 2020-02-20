@@ -2,7 +2,7 @@
 
 rewindKey = keyboard_check(ord("R"));
 
-if (!canRewind)
+if (!canRewind || oPlayer.state == PLAYERSTATE.DEAD)
 {
 	oRewindPosition.visible = false;
 }
@@ -21,7 +21,7 @@ if (!rewindKey)
 
 if (ds_list_size(playerPositions) > 60*maxSeconds) ds_list_delete(playerPositions, 0);
 
-if (rewindKey && canRewind) 
+if (rewindKey && canRewind && oPlayer.state != PLAYERSTATE.DEAD) 
 { 
 	canRewind = false;
 	arr = playerPositions[|0];

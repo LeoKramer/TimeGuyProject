@@ -21,4 +21,7 @@ switch (state)
 	case PLAYERSTATE.AIR_ATTACK:
 		PlayerState_Air_Attack();
 		break;
+	case PLAYERSTATE.DEAD:
+		PlayerState_Dead();
+		break;
 }

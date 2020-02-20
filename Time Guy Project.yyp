@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "5674b7f3-2825-46b5-a493-004bdf895cee",
+            "Value": {
+                "id": "53fc31a4-ae69-45fc-9f1b-84fe53696f9a",
+                "resourcePath": "scripts\\EnemyState_Idle\\EnemyState_Idle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d3a8f87-cc8d-4ac2-845f-5aef458b4103",
             "Value": {
                 "id": "c955f77c-2217-4de2-9939-a02b0253bc66",
@@ -292,6 +300,14 @@
                 "id": "114f029a-7736-4499-b132-1db5a79adf9a",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7145ce05-36d8-414c-bc1d-fa823081bd1b",
+            "Value": {
+                "id": "98574fbd-e1c6-4c85-a414-27f339fec60f",
+                "resourcePath": "sprites\\sPlayerDead\\sPlayerDead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "c30c37f3-d852-4b26-8949-96f17a95b8f6",
+            "Value": {
+                "id": "7a8fe888-4d61-4b69-a7e2-67eff087fa9b",
+                "resourcePath": "scripts\\PlayerState_Dead\\PlayerState_Dead.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c42d8437-1ab6-4daf-be0c-b7d17b5ea0c0",
             "Value": {
                 "id": "bfaf51ef-4c18-44ab-9369-a5bdcce096a4",
@@ -599,12 +623,14 @@
         "4be94254-e833-47c9-ad59-f0503b978941",
         "0954c764-e97b-4ff1-a514-c3fa4bb6397c",
         "9a973375-2329-4631-a7fe-cfad55991eb3",
+        "c30c37f3-d852-4b26-8949-96f17a95b8f6",
         "1139c40d-964d-4101-8ced-f51c3f90e2dd",
         "19db9bb8-b849-4919-8058-fd5a28944719",
         "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
         "55957956-b105-4513-adee-340ea5e41530",
         "d5d6bcce-7e92-421b-9469-adf57e821696",
-        "8507a87e-6d7d-412f-a39d-8db9efe73e44"
+        "8507a87e-6d7d-412f-a39d-8db9efe73e44",
+        "5674b7f3-2825-46b5-a493-004bdf895cee"
     ],
     "tutorial": ""
 }

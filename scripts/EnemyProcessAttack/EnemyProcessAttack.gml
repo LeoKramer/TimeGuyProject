@@ -21,7 +21,7 @@ if (hits > 0)
 			ds_list_add(hitByEnemyAttack, hitID);
 			with (hitID)
 			{
-				PlayerHit(2);
+				PlayerHit(1);
 			}
 		}
 	}

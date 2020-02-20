@@ -38,4 +38,7 @@ sprite_index = (hsp == 0)? sEnemyIdle : sEnemyRun;
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (distance_to_object(oPlayer) < 400 && canDashAttack) state = ENEMYSTATE.DASHING;
+if (distance_to_object(oPlayer) < 400 && canDashAttack && oPlayer.state != PLAYERSTATE.DEAD) 
+	state = ENEMYSTATE.DASHING;
+	
+if (oPlayer.state = PLAYERSTATE.DEAD) state = ENEMYSTATE.IDLE;
