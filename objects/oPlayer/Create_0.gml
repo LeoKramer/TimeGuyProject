@@ -9,7 +9,7 @@ walksp = 8;
 jumpsp = 15;
 timeStoped = false;
 canTimeStop = true;
-hp = 1;
+hp = 2;
 
 // Adding state machine
 state = PLAYERSTATE.FREE;

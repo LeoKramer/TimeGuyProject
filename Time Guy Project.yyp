@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "051557ba-2078-4d2d-ba81-fa4cf68052a2",
+            "Value": {
+                "id": "fa054c95-596e-4d36-993b-0e222c0f64b1",
+                "resourcePath": "sprites\\sTimePause\\sTimePause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08461ebf-812c-4ce9-a8a4-112d5dc2af66",
             "Value": {
                 "id": "f00041e8-f5bd-4b59-80d9-d071cd5c7372",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "2c835ddf-bf3f-4316-9656-e4e7f7c41cc6",
+            "Value": {
+                "id": "aecaf593-2415-4923-869d-db80aecfb96b",
+                "resourcePath": "objects\\oPlayerLife\\oPlayerLife.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "347e68e4-2477-4f9c-a6b4-460bb18f5927",
             "Value": {
                 "id": "68bc679d-b32b-4ee3-9a94-f57b7c73981a",
@@ -196,6 +212,14 @@
                 "id": "db076610-1e74-49b6-b622-5602b32fff47",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e073b97-c43c-4df8-bb80-68eb437cc96e",
+            "Value": {
+                "id": "867c5b84-0234-4f57-a6c5-ea4db90a34f2",
+                "resourcePath": "views\\4e073b97-c43c-4df8-bb80-68eb437cc96e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -303,6 +327,14 @@
             }
         },
         {
+            "Key": "6bfdf4cf-a4da-4be2-900a-2c8f7b949e50",
+            "Value": {
+                "id": "5aa118d1-ab0a-4d0a-8f13-ac4586b1cde7",
+                "resourcePath": "sprites\\sTimeRewind\\sTimeRewind.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7145ce05-36d8-414c-bc1d-fa823081bd1b",
             "Value": {
                 "id": "98574fbd-e1c6-4c85-a414-27f339fec60f",
@@ -348,6 +380,14 @@
                 "id": "062102f4-92c5-4c90-ba7d-d55c89f0d07a",
                 "resourcePath": "scripts\\AnimationEnd\\AnimationEnd.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7d34129a-c9f6-4b5f-b5a1-5dc10a3f1145",
+            "Value": {
+                "id": "9c2dcb0f-5148-4fa0-a8b5-00bbfed34661",
+                "resourcePath": "sprites\\sHalfLife\\sHalfLife.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -426,7 +466,7 @@
             "Key": "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
             "Value": {
                 "id": "fa23efa6-3fa6-4b92-90d6-62eda8ef480a",
-                "resourcePath": "scripts\\EnemyState_ComboAttack\\EnemyState_ComboAttack.yy",
+                "resourcePath": "scripts\\EnemyState_PrimaryAttack\\EnemyState_PrimaryAttack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -463,6 +503,14 @@
             }
         },
         {
+            "Key": "a644e542-36e3-43fe-bc7b-6d52b5b42b4d",
+            "Value": {
+                "id": "ba0973b5-1450-4e86-b73a-aaa181f7fdd2",
+                "resourcePath": "objects\\oTimePauseAbility\\oTimePauseAbility.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "0b33fd05-fb5d-4455-8ef4-c88e26ad4239",
@@ -484,6 +532,14 @@
                 "id": "0fee4919-b500-451a-b599-fb523e772773",
                 "resourcePath": "sprites\\sBackground\\sBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b02dd983-e19a-4875-897e-8c94a9e647ee",
+            "Value": {
+                "id": "2d303e7f-fb9a-4e66-addb-a86f76af370e",
+                "resourcePath": "objects\\oTimeRewindAbility\\oTimeRewindAbility.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -519,6 +575,14 @@
             }
         },
         {
+            "Key": "bf8ef719-9bfd-488e-ba06-4aec2b8acc46",
+            "Value": {
+                "id": "6daa395f-e5a1-4c36-abe3-5acd920cd486",
+                "resourcePath": "sprites\\sFullLife\\sFullLife.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c30c37f3-d852-4b26-8949-96f17a95b8f6",
             "Value": {
                 "id": "7a8fe888-4d61-4b69-a7e2-67eff087fa9b",
@@ -532,6 +596,14 @@
                 "id": "bfaf51ef-4c18-44ab-9369-a5bdcce096a4",
                 "resourcePath": "views\\c42d8437-1ab6-4daf-be0c-b7d17b5ea0c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4e138a2-28ed-44c7-b1f4-5e7f76f4c94d",
+            "Value": {
+                "id": "4a53eee1-118f-4f18-b7c2-9141f15348a1",
+                "resourcePath": "scripts\\EnemyState_CircularAttack\\EnemyState_CircularAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -556,6 +628,14 @@
                 "id": "216a538b-116b-401e-9812-e75aa58de443",
                 "resourcePath": "sprites\\sEnemyNormalSecAttackHB\\sEnemyNormalSecAttackHB.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e7111d91-fbf8-424e-a139-cb06b76dc45f",
+            "Value": {
+                "id": "345720fc-0e77-4582-899e-d6250d3f42ce",
+                "resourcePath": "scripts\\EnemyState_SecondaryAttack\\EnemyState_SecondaryAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -630,7 +710,9 @@
         "55957956-b105-4513-adee-340ea5e41530",
         "d5d6bcce-7e92-421b-9469-adf57e821696",
         "8507a87e-6d7d-412f-a39d-8db9efe73e44",
-        "5674b7f3-2825-46b5-a493-004bdf895cee"
+        "5674b7f3-2825-46b5-a493-004bdf895cee",
+        "e7111d91-fbf8-424e-a139-cb06b76dc45f",
+        "c4e138a2-28ed-44c7-b1f4-5e7f76f4c94d"
     ],
     "tutorial": ""
 }

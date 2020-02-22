@@ -1,6 +1,6 @@
 image_speed = 0.5;
 
-hsp = 10 * walkdirection
+hsp = 12 * walkdirection
 
 EnemyProcessAttack(sEnemyPiercingAttack, sEnemyPiercingAttackHB);
 

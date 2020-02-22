@@ -14,8 +14,14 @@ else
 		case ENEMYSTATE.WALKING: 
 			EnemyState_Walking();
 			break;
-		case ENEMYSTATE.COMBOATTACKING:
-			EnemyState_ComboAttack();
+		case ENEMYSTATE.PRIMARYATTACK:
+			EnemyState_PrimaryAttack();
+			break;
+		case ENEMYSTATE.SECONDARYATTACK:
+			EnemyState_SecondaryAttack();
+			break;
+		case ENEMYSTATE.CIRCULARATTACK:
+			EnemyState_CircularAttack();
 			break;
 		case ENEMYSTATE.DASHING:
 			EnemyState_Dash();

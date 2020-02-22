@@ -1,8 +1,8 @@
 {
-    "id": "9a9655d7-cc6a-4db1-9ee8-bb41e7c7ce86",
+    "id": "c4e138a2-28ed-44c7-b1f4-5e7f76f4c94d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EnemyState_ComboAttack",
+    "name": "EnemyState_CircularAttack",
     "IsCompatibility": false,
     "IsDnD": false
 }

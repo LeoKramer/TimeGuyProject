@@ -10,11 +10,13 @@ walkdirection = -1;
 hitByEnemyAttack = ds_list_create();
 canDashAttack = true;
 
-state = ENEMYSTATE.WALKING
+state = ENEMYSTATE.WALKING;
 enum ENEMYSTATE
 {
 	WALKING,
-	COMBOATTACKING,
+	PRIMARYATTACK,
+	SECONDARYATTACK,
+	CIRCULARATTACK,
 	DASHING,
 	DEAD,
 	IDLE

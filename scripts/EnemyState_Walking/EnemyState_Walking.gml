@@ -38,7 +38,13 @@ sprite_index = (hsp == 0)? sEnemyIdle : sEnemyRun;
 
 if (hsp != 0) image_xscale = sign(hsp);
 
+// make the dash attack if the player is closer than 400
 if (distance_to_object(oPlayer) < 400 && canDashAttack && oPlayer.state != PLAYERSTATE.DEAD) 
 	state = ENEMYSTATE.DASHING;
+
+// make the primary attack if the player is closer than 200
+if (distance_to_object(oPlayer) < 200 && oPlayer.state != PLAYERSTATE.DEAD)
+	state = ENEMYSTATE.PRIMARYATTACK;
 	
+// make nothing if the player is dead
 if (oPlayer.state = PLAYERSTATE.DEAD) state = ENEMYSTATE.IDLE;
